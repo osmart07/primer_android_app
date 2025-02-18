@@ -9,30 +9,22 @@
 
     <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="783dp"
-        android:layout_height="1172dp"
+        android:layout_width="1545dp"
+        android:layout_height="861dp"
         app:srcCompat="@drawable/fondo"
-        tools:layout_editor_absoluteX="-232dp"
-        tools:layout_editor_absoluteY="-266dp" />
+        tools:layout_editor_absoluteX="-292dp"
+        tools:layout_editor_absoluteY="-228dp" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="96dp"
-        android:layout_marginTop="263dp"
-        android:layout_marginEnd="123dp"
-        android:layout_marginBottom="312dp"
         android:background="#00FFFFFF"
         android:drawableTint="#FFFFFF"
         android:text="@string/text_button"
-        android:textSize="34sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        android:textSize="60sp"
+        tools:layout_editor_absoluteX="388dp"
+        tools:layout_editor_absoluteY="160dp" />
 
     <TextView
         android:id="@+id/textView2"
@@ -40,7 +32,7 @@
         android:layout_height="wrap_content"
         android:text="@string/text_welcome"
         android:textColor="#FFFFFF"
-        android:textSize="34sp"
-        tools:layout_editor_absoluteX="97dp"
-        tools:layout_editor_absoluteY="137dp" />
+        android:textSize="60sp"
+        tools:layout_editor_absoluteX="343dp"
+        tools:layout_editor_absoluteY="33dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -12,27 +12,19 @@
         android:layout_width="783dp"
         android:layout_height="1172dp"
         app:srcCompat="@drawable/fondo"
-        tools:layout_editor_absoluteX="-232dp"
-        tools:layout_editor_absoluteY="-266dp" />
+        tools:layout_editor_absoluteX="-53dp"
+        tools:layout_editor_absoluteY="-452dp" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="96dp"
-        android:layout_marginTop="263dp"
-        android:layout_marginEnd="123dp"
-        android:layout_marginBottom="312dp"
         android:background="#00FFFFFF"
         android:drawableTint="#FFFFFF"
         android:text="@string/text_button"
         android:textSize="34sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        tools:layout_editor_absoluteX="278dp"
+        tools:layout_editor_absoluteY="107dp" />
 
     <TextView
         android:id="@+id/textView2"
@@ -41,6 +33,6 @@
         android:text="@string/text_welcome"
         android:textColor="#FFFFFF"
         android:textSize="34sp"
-        tools:layout_editor_absoluteX="97dp"
-        tools:layout_editor_absoluteY="137dp" />
+        tools:layout_editor_absoluteX="265dp"
+        tools:layout_editor_absoluteY="26dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
